@@ -13,6 +13,12 @@ nav [class*="col-"] {
     padding: 40px 0;
 }
 
+.card {
+    background-color: coral;
+    height: 250px;
+    margin: 15px 0;
+}
+
 section .content {
     padding: 200px 0;
     border: 1px dotted;
@@ -29,17 +35,32 @@ footer {
     background-color: rgb(130, 177, 167);
 }
 
-section [class*="col-"] {
+#about [class*="col-"],
+#contact [class*="col-"]{
     border: 1px solid;
     padding: 150px 0;
+}
+
+#portfolio {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#porfolio [class*="col-"] {
+    padding: 0 15px;
 }
 
 #about {
     background-color: rgb(130, 177, 167);
 }
 
+
+
+footer {
+    background-color: rgb(85, 94, 93);
+}
+
 footer [class*="col-"] {
     border: 1px solid;
     padding: 50px 0;
-    background-color: rgb(85, 94, 93);
 }
