@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .wrapper {
+    width: 90%;
+    margin: auto;
+} */
+
+nav {
+    background-color: bisque;
+}
+
+nav [class*="col-"] {
+    border: 1px solid;
+    padding: 40px 0;
+}
+
+section .content {
+    padding: 200px 0;
+    border: 1px dotted;
+}
+
+section h1,
+section h2,
+section [class*="col-"],
+footer {
+    text-align: center;
+}
+
+#presentation{
+    background-color: rgb(130, 177, 167);
+}
+
+section [class*="col-"] {
+    border: 1px solid;
+    padding: 150px 0;
+}
+
+#about {
+    background-color: rgb(130, 177, 167);
+}
+
+footer [class*="col-"] {
+    border: 1px solid;
+    padding: 50px 0;
+    background-color: rgb(85, 94, 93);
+}
