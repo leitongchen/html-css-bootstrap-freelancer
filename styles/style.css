@@ -15,8 +15,23 @@
     max-width: 200px;
 }
 
-footer [class*="col-"] {
-    border: 1px solid;
+footer {
+    background-color: #3a546d;
+}
+
+.social_img_container {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border: 1px solid white;
+    
+    line-height: 30px;
+}
+
+.social_img_container a {
+    display: inline-block;
+    width: 100%;
 }
 
 /* COMMON CLASSES */
@@ -76,4 +91,8 @@ footer [class*="col-"] {
 
     box-shadow: none;
     border-radius: 0;
+}
+
+h5 {
+    text-transform: uppercase;
 }
