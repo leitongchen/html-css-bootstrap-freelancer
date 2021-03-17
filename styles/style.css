@@ -64,3 +64,16 @@ footer [class*="col-"] {
     background-color: transparent;
     border: 1px solid white;
 }
+.btn_coloured {
+    background-color: #19bc9d;
+    color: white;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    box-shadow: none;
+    border-radius: 0;
+}
