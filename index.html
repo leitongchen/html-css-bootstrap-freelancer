@@ -38,16 +38,23 @@
     <main>
         <!-- Sezione HERO - presentazione -->
         <section class="bg_green">
-            <div class="container">
+            <div class="container my_hero">
                 <div class="img_container center-block">
                     <img class="img-responsive" src="img/avatar.svg" alt="illustrazione avatar">
                 </div>
                 <div class="text-center text_white text-uppercase">
                     <h1>Start Bootstrap</h1>
-                    <div class="my_ruler white_ruler"></div>
-                    <img class="star_icon" src="img/star-white.png" alt="icona stella">
-                    <div class="my_ruler white_ruler"></div>
-                    <h5>Graphic Artist - Web designer - Illustrator</h5>
+                    <div class="star_divider">
+                        <div class="my_ruler white_ruler"></div>
+                        <img class="star_icon" src="img/star-white.png" alt="icona stella">
+                        <div class="my_ruler white_ruler"></div>
+                    </div>
+                    <ul class="list-inline">
+                        <li><a href="#">Graphic Artist</a></li>
+                        <li><a href="#">Web Designer</a></li>
+                        <li><a href="#">Illustrator</a></li>
+                    </ul>
+
                 </div>
             </div>
         </section>
@@ -56,39 +63,47 @@
             <div class="container">
                 <div class="text-center text-uppercase">
                     <h1>Portfolio</h1>
-                    <div class="my_ruler dark_ruler"></div>
-                    <img class="star_icon" src="img/star-blue.png" alt="icona stella">
-                    <div class="my_ruler dark_ruler"></div>
+                    <div class="star_divider">
+                        <div class="my_ruler dark_ruler"></div>
+                        <img class="star_icon" src="img/star-blue.png" alt="icona stella">
+                        <div class="my_ruler dark_ruler"></div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/cabin.png" alt="illustrazione baita">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/cake.png" alt="illustrazione torta">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/circus.png" alt="illustrazione circo">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/game.png" alt="illustrazione joystick">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/safe.png" alt="illustrazione cassaforte">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <div class="card">
+                        <div class="project card">
                             <img class="img-responsive img_rounder" src="img/submarine.png" alt="illustrazione sottomarino giallo">
+                            <div class="overlay"></div>
                         </div>
                     </div>
                 </div>
@@ -99,9 +114,11 @@
             <div class="container text_white">
                 <div class="text-center text-uppercase">
                     <h2>About</h2>
-                    <div class="my_ruler white_ruler"></div>
-                    <img class="star_icon" src="img/star-white.png" alt="icona stella">
-                    <div class="my_ruler white_ruler"></div>
+                    <div class="star_divider">
+                        <div class="my_ruler white_ruler"></div>
+                        <img class="star_icon" src="img/star-white.png" alt="icona stella">
+                        <div class="my_ruler white_ruler"></div>
+                    </div>
                 </div>
                 
                 <div class="row text-justify">
@@ -133,9 +150,11 @@
                     <div class="col-sm-10 col-sm-offset-1">
                         <div class="text-center text-uppercase">
                             <h2>Contact me</h2>
-                            <div class="my_ruler dark_ruler"></div>
-                            <img class="star_icon" src="img/star-blue.png" alt="icona stella">
-                            <div class="my_ruler dark_ruler"></div>
+                            <div class="star_divider">
+                                <div class="my_ruler dark_ruler"></div>
+                                <img class="star_icon" src="img/star-blue.png" alt="icona stella">
+                                <div class="my_ruler dark_ruler"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-10 col-sm-offset-1">
@@ -171,7 +190,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-lg-4">
-                    <div class="card">
+                    <div class="social_link card">
                         <h5>around the web</h5>
                         <ul class="list-inline">
                             <li class="social_img_container">
@@ -190,14 +209,14 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-lg-4">
-                    <div class="card">
+                    <div class="creator card">
                         <h5>about freelancer</h5>
                         <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg_dark text-center">
+        <div class="copyright bg_dark text-center">
             <span class="text_white text-capitalize">
                 Copyright &#169; your website 2019
             </span>

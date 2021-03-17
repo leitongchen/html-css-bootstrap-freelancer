@@ -3,20 +3,56 @@
     margin-bottom: 0;
 }
 
-.my_navbar a {
+.my_navbar a,
+.my_hero .list-inline a {
     color: white;
+}
+
+.my_navbar li a:hover {
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .my_navbar .navbar-toggle .icon-bar {
     background-color: white;
 }
 
+.my_hero .list-inline a:hover {
+    color: #3a546d;
+}
+
 .img_container {
     max-width: 200px;
 }
 
+section {
+    padding: 50px 0;
+}
+
+.project.card {
+    position: relative;
+}
+
+.overlay {
+    background-color: #3a546d;;
+    opacity: 0;
+
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+
+    border-radius: 10px;
+}
+
+.project.card:hover .overlay {
+    opacity: .5;
+}
+
 footer {
     background-color: #3a546d;
+
+    padding-top: 50px;
 }
 
 .social_img_container {
@@ -29,9 +65,27 @@ footer {
     line-height: 30px;
 }
 
+.social_img_container:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.social_link li:not(:last-child) {
+    margin-right: 10px;
+}
+
 .social_img_container a {
     display: inline-block;
     width: 100%;
+}
+
+.creator.card a {
+    color: #19bc9d;
+}
+
+.copyright {
+    padding: 40px 0;
+
+    margin-top: 50px;
 }
 
 /* COMMON CLASSES */
@@ -66,6 +120,9 @@ footer {
     margin: 0 20px;
     display: inline-block;
 }
+.star_divider {
+    margin-bottom: 20px;
+}
 
 .card {
     margin: 15px 0;
@@ -79,10 +136,21 @@ footer {
     background-color: transparent;
     border: 1px solid white;
 }
+.btn_border:hover {
+    background-color: white;
+    color: #19bc9d;
+}
+
 .btn_coloured {
     background-color: #19bc9d;
     color: white;
 }
+.btn_coloured:hover {
+    background-color: white;
+    border: 1px solid #19bc9d;
+    color: #19bc9d;
+}
+
 
 .form-control {
     border-top: none;
