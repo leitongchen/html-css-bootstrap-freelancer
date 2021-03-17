@@ -1,66 +1,15 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 nav {
     background-color: bisque;
-}
-
-nav [class*="col-"] {
-    border: 1px solid;
-    padding: 40px 0;
+    min-height: 50px;
 }
 
 .card {
+    margin: 15px 0;
+
     background-color: coral;
     height: 250px;
-    margin: 15px 0;
-}
-
-section .content {
-    padding: 200px 0;
-    border: 1px dotted;
-}
-
-section h1,
-section h2,
-section [class*="col-"],
-footer {
-    text-align: center;
-}
-
-#presentation{
-    background-color: rgb(130, 177, 167);
-}
-
-#about [class*="col-"],
-#contact [class*="col-"]{
-    border: 1px solid;
-    padding: 150px 0;
-}
-
-#portfolio {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-#porfolio [class*="col-"] {
-    padding: 0 15px;
-}
-
-#about {
-    background-color: rgb(130, 177, 167);
-}
-
-
-
-footer {
-    background-color: rgb(85, 94, 93);
 }
 
 footer [class*="col-"] {
     border: 1px solid;
-    padding: 50px 0;
 }
