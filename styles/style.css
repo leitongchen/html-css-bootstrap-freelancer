@@ -1,7 +1,15 @@
-nav {
-    background-color: bisque;
-    min-height: 50px;
+.my_navbar {
+    border-radius: none !important;
 }
+
+.my_navbar a {
+    color: white;
+}
+
+.my_navbar .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 
 .card {
     margin: 15px 0;
@@ -13,3 +21,21 @@ nav {
 footer [class*="col-"] {
     border: 1px solid;
 }
+
+/* COMMON CLASSES */
+
+.bg_dark {
+    background-color: #2c3e51;
+}
+
+.text_white {
+    color: white;
+}
+
+/* @media all and (min-width: 768px) {
+
+    .my_navbar {
+        border-radius: none !important;
+    }
+} */
+
