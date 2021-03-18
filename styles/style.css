@@ -1,3 +1,5 @@
+/*  NAVBAR  */
+
 .my_navbar {
     border-radius: 0;
     margin-bottom: 0;
@@ -16,6 +18,8 @@
     background-color: white;
 }
 
+/* HERO */
+
 .my_hero .list-inline a:hover {
     color: #3a546d;
 }
@@ -24,6 +28,7 @@
     max-width: 200px;
 }
 
+/* SEZIONI */
 section {
     padding: 50px 0;
 }
@@ -33,21 +38,24 @@ section {
 }
 
 .overlay {
-    background-color: #3a546d;;
-    opacity: 0;
+    background-color: #3a546d;
+    opacity: .5;
+    display: none;
 
     height: 100%;
     width: 100%;
 
     position: absolute;
     top: 0;
-
     border-radius: 10px;
 }
 
 .project.card:hover .overlay {
-    opacity: .5;
+    display: block;
 }
+
+
+/* FOOTER */
 
 footer {
     background-color: #3a546d;
@@ -65,10 +73,16 @@ footer {
     line-height: 30px;
 }
 
+.social_img_container .img-responsive {
+    display: inline-block;
+    vertical-align: sub;
+}
+
 .social_img_container:hover {
     background-color: rgba(255, 255, 255, .2);
 }
 
+/* margin delle icone social - escluso l'ultimo */
 .social_link li:not(:last-child) {
     margin-right: 10px;
 }
@@ -76,9 +90,11 @@ footer {
 .social_img_container a {
     display: inline-block;
     width: 100%;
+    line-height: 30px;
 }
 
-.creator.card a {
+/* footer links color */
+footer a {
     color: #19bc9d;
 }
 
@@ -151,6 +167,7 @@ footer {
     color: #19bc9d;
 }
 
+/* link sulla pagina */
 
 .form-control {
     border-top: none;
@@ -163,4 +180,10 @@ footer {
 
 h5 {
     text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+    footer .card {
+        margin-bottom: 30px;
+    }
 }
